@@ -5,21 +5,97 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-    }
-    #blu-card .card {
-        flex-basis: calc((100% / 3) - 5px);
-        margin: 10px 5px;
-        flex-grow: 0;
+        margin: 10px;
         
     }
-    #blu-card .card-A {
-        flex-grow: 2;
+    
+    #blu-card .card {
+        flex-basis: calc(((100% / 3.2)*1));
+        margin: 10px 0px;  
     }
-
+    #blu-card .card-A {
+        flex-basis: calc(((100% / 3.05) *2));
+    }
+    #testimonials .flex>.column {
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    #testimonials div p {
+        margin-top: 40px;
+    }
+    
+    #benefits .column {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 40px;
+    }
+    #benefits .card {
+        flex-basis: calc((100% / 2) - 2%);
+        margin: 10px 0;
+    }
+    #about .column {
+        flex-direction: row;
+        align-items: flex-start;
+    }
     
 }
 
 /* desktop */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1100px) {
+    main #blu-card {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 10px 20vw;
+    }
+    
+    #blu-card .card {
+        flex-basis: calc(((100% / 3.2)*1));
+        margin: 10px 0px; 
+    }
+    #blu-card .card-A {
+        flex-basis: calc(((100% / 3.05) *2));
+    }
+    #planning {  
+        margin: 10px 20vw;
+    }
+    #planning .card {
+        margin: 30px 0;
+    }
+    .violet .column {
+        flex-direction: row;
+    }
+    #testimonials .flex>.column {
+        flex-direction: row;
+        margin-top: 20px;
+        
+    }
+    #testimonials {
+        margin: 10px 20vw;
+    }
+    #testimonials div p {
+        margin-top: 40px;
+    }
+    #benefits {
+        margin: 10px 20vw;
+    }
+    #benefits .column {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 40px;
+    }
+    #benefits .card {
+        flex-basis: calc((100% / 3) - 2%);
+        margin: 10px 0;
+    }
+    #about {
+        margin: 10px 20vw;
+    }
+    #about .column {
+        flex-direction: row;
+        align-items: flex-start;
+    }
 
 }

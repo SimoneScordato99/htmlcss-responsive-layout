@@ -11,6 +11,10 @@ li {
 img {
     width: 100%;
 }
+a {
+    text-decoration: none;
+    color: currentColor;
+}
 
 /* utility */
 .flex {
@@ -22,11 +26,14 @@ img {
 .column {
     flex-direction: column;
 }
-.flex {
+.flex-wrap {
     flex-wrap: wrap;
 }
 .justify-between {
     justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
 }
 .align-center {
     align-items: center;
@@ -40,16 +47,31 @@ img {
 .margin-up-down {
     padding: 20px 0;
 }
+.mg-0 {
+    margin: 0 auto;
+}
 .botton {
+    width: 200px;
     border-radius: 30px;
     text-align: center;
     padding: 20px;
     font-size: 25px;
     font-weight: 700 bold;
 }
+.button-small {
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700 bold;
+}
 .center {
     text-align: center;
 }
+.a-underline {
+    text-decoration: underline;
+}
+
 
 /* colori */
 
@@ -65,6 +87,9 @@ img {
 .white {
     background-color: white;
 }
+.dark {
+    background-color: #333333;
+}
 .text-blu {
     color: #0084FD;
 }
@@ -74,7 +99,9 @@ img {
 .text-white {
     color: white;
 }
-
+.text-yellow {
+    color: #FDC15F;
+}
 
 
 /* header */
@@ -99,7 +126,7 @@ img {
     padding: 20px;
     
 }
-.card h3 {
+.card h3, h3 {
     font-size: 25px;
 }
 .card i {
@@ -112,4 +139,77 @@ img {
     border-radius: 50%;
     background-color: #9792E4;
     padding: 20px;
+}
+#testimonials i {
+    font-size: 20px;
+}
+#testimonials .round {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    z-index: 1;
+    
+}
+#testimonials img {
+    display: inline;
+    margin: 0 auto;
+    margin-left: -25%;
+    height: 100%;
+    width: auto;   
+}
+#benefits h2 {
+    font-size: 55px;
+}
+#benefits h3 {
+    margin-top: 40px;
+    padding-top: 40px;
+}
+#benefits h4 {
+    font-size: 30px;
+}
+#about h2 {
+    font-size: 35px;
+}
+#about p {
+    line-height: 2.5;
+}
+#about .round {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    z-index: 1;
+}
+#about img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;   
+}
+#quote-relative i {
+    position: absolute;
+    left: 120px;
+    top: 0;
+    z-index: 2;
+    font-size: 40px;
+}
+#quote-relative {
+    position: relative;
+}
+#about .button-small i {
+    font-size: 20px;
+}
+#started h1 {
+    font-size: 60px;
+}
+.box {
+    width: 400px;
+}
+#footer .card {
+    
+    width: 300px;
+
 }

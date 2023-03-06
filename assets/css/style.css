@@ -1,0 +1,115 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+li {
+    list-style-type: none;
+}
+img {
+    width: 100%;
+}
+
+/* utility */
+.flex {
+    display: flex;
+}
+.row {
+    flex-direction: row;
+}
+.column {
+    flex-direction: column;
+}
+.flex {
+    flex-wrap: wrap;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.margin-up-down {
+    padding: 20px 0;
+}
+.botton {
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 700 bold;
+}
+.center {
+    text-align: center;
+}
+
+/* colori */
+
+.bluet {
+    background-color: #B5DDFF;
+}
+.blu {
+    background-color: #0083FC;
+}
+.violet {
+    background-color: #9792E4;
+}
+.white {
+    background-color: white;
+}
+.text-blu {
+    color: #0084FD;
+}
+.text-violet {
+    color: #9792E4;
+}
+.text-white {
+    color: white;
+}
+
+
+
+/* header */
+.header-icons {
+    margin: 20px;
+}
+
+
+
+/* main */
+.margin-main {
+    margin-top: 90px;
+
+}
+#apple {
+    font-size: 25px;
+}
+
+.card {
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+    
+}
+.card h3 {
+    font-size: 25px;
+}
+.card i {
+    font-size: 100px;
+
+}
+#arrow {
+    font-size: 25px;
+    color: black;
+    border-radius: 50%;
+    background-color: #9792E4;
+    padding: 20px;
+}

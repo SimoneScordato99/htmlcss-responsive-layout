@@ -1,0 +1,25 @@
+/* teblet */
+
+@media screen and (min-width: 736px) {
+    main #blu-card {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #blu-card .card {
+        flex-basis: calc((100% / 3) - 5px);
+        margin: 10px 5px;
+        flex-grow: 0;
+        
+    }
+    #blu-card .card-A {
+        flex-grow: 2;
+    }
+
+    
+}
+
+/* desktop */
+@media screen and (min-width: 1280px) {
+
+}

@@ -10,6 +10,7 @@ li {
 }
 img {
     width: 100%;
+    display: block;
 }
 a {
     text-decoration: none;
@@ -108,7 +109,18 @@ a {
 .header-icons {
     margin: 20px;
 }
-
+.header-icons-desktop {
+    display: none;
+    color: white;
+    
+}
+.header-icons-desktop ul li {
+    display: inline-block;
+    padding: 5px;
+}
+#get-start {
+    color: black;
+}
 
 
 /* main */
@@ -116,6 +128,13 @@ a {
     margin-top: 90px;
 
 }
+#blu-card {
+    max-width: 1200px;
+}
+#violet {
+    max-width: 1100px;
+}
+
 #apple {
     font-size: 25px;
 }
@@ -126,6 +145,9 @@ a {
     padding: 20px;
     
 }
+.card-A {
+    padding-bottom: 0;
+}
 .card h3, h3 {
     font-size: 25px;
 }
@@ -133,31 +155,27 @@ a {
     font-size: 100px;
 
 }
-#arrow {
+#arrow-box {
+    display: inline-block;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 100%;
+    background-color: #9792E4;
+    
+}
+#arrow {  
     font-size: 25px;
     color: black;
-    border-radius: 50%;
-    background-color: #9792E4;
-    padding: 20px;
+    
 }
 #testimonials i {
     font-size: 20px;
 }
-#testimonials .round {
-    width: 250px;
-    height: 250px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    z-index: 1;
-    
-}
 #testimonials img {
-    display: inline;
-    margin: 0 auto;
-    margin-left: -25%;
-    height: 100%;
-    width: auto;   
+    width: 200px;  
+    object-fit: cover;
+    aspect-ratio: 1;
+    border-radius: 50%;
 }
 #benefits h2 {
     font-size: 55px;
@@ -175,30 +193,25 @@ a {
 #about p {
     line-height: 2.5;
 }
-#about .round {
-    width: 150px;
-    height: 150px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    z-index: 1;
+#img-relative {
+    position: relative; 
+    z-index: -2; 
 }
 #about img {
-    display: inline;
-    margin: 0 auto;
-    height: 100%;
-    width: auto;   
+    width: 200px;  
+    object-fit: cover;
+    aspect-ratio: 1;
+    border-radius: 50%; 
+    
 }
-#quote-relative i {
+#quotes {
     position: absolute;
-    left: 120px;
+    left: 150px;
     top: 0;
-    z-index: 2;
+    z-index: 0;
     font-size: 40px;
 }
-#quote-relative {
-    position: relative;
-}
+
 #about .button-small i {
     font-size: 20px;
 }
@@ -206,10 +219,10 @@ a {
     font-size: 60px;
 }
 .box {
-    width: 400px;
+    max-width: 700px;
 }
 #footer .card {
     
-    width: 300px;
+    max-width: 600px;
 
 }
